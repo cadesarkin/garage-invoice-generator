@@ -99,7 +99,8 @@ export default function InvoiceForm() {
         <input
           id="listing-url"
           name="listing-url"
-          type="url"
+          type="text"
+          inputMode="url"
           required
           autoComplete="off"
           spellCheck={false}
